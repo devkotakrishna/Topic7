@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".addActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Word"
+        android:textSize="20dp"
+        android:id="@+id/etword"
+        android:layout_margin="20dp">
+
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etmeaning"
+        android:gravity="start"
+        android:textSize="20dp"
+        android:hint="Meaning"
+        android:layout_margin="20dp"
+        android:layout_weight="1">
+        
+    </EditText>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnaddword"
+            android:text="Add Word"
+            >
+
+        </Button>
+
+</LinearLayout>
